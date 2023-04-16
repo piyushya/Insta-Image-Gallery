@@ -1,0 +1,19 @@
+{
+  "name": "insta-image-gallery",
+  "version": "1.0.0",
+  "description": "Image gallery created with Instagram API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/index.html",
+    "start": "npx parcel src/index.html"
+  },
+  "author": "Piyush Yadav",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.38.0",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^2.8.7"
+  }
+}
